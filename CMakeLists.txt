@@ -950,7 +950,7 @@ set(ZLIB_GZFILE_SRCS
 
 if(NOT MINGW AND NOT MSYS AND NOT CYGWIN)
     set(ZLIB_DLL_SRCS
-        win32/zlib${SUFFIX}1.rc # If present will override custom build rule below.
+        # win32/zlib${SUFFIX}1.rc # If present will override custom build rule below.
     )
 endif()
 
